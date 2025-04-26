@@ -14,7 +14,7 @@ import os
 st.set_page_config(page_title="Multimodal Distress Detection", layout="centered")
 
 # ========== LOAD MODELS ==========
-audio_model = load_model("/Users/sannu/Desktop/Steamlit_multimodel/models/Distress_model.h5")
+audio_model = load_model("models/Distress_model.h5")
 audio_labels = ['male_stressful', 'female_stressful', 'male_non_stressful', 'female_non_stressful']
 label_encoder = LabelEncoder()
 label_encoder.fit(audio_labels)
