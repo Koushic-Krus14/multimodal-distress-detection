@@ -1,7 +1,6 @@
 # Core
-tensorflow-macos==2.16.2
-tensorflow-metal==1.2.0
-torch==2.7.0
+tensorflow==2.16.2
+torch==1.13.0  # Use a stable version
 transformers==4.51.3
 
 # Streamlit
